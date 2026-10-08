@@ -23,7 +23,8 @@ class Constructor {
             balance = balance - amount;
             System.out.println("Purchase successful: " + amount);
             System.out.println("Remaining balance: " + balance);
-        } else {
+        } 
+        else {
             System.out.println("Insufficient funds!");
             System.out.println("Balance remains: " + balance);
         }
