@@ -16,7 +16,7 @@ class Area1{
 
         case 1:
             System.out.println("Square");
-            Scanner sc1=new Scanner(System.in);
+            Scanner sc3=new Scanner(System.in);
             System.out.println("Enter side of square: ");
             int side=sc.nextInt();
             int Area=side*side;
@@ -25,7 +25,7 @@ class Area1{
 
         case 2:
             System.out.println("Triangle");
-            Scanner sc2=new Scanner(System.in);
+            Scanner sc1=new Scanner(System.in);
 
             System.out.println("Enter base of triangle: ");
             int base=sc.nextInt();
@@ -39,7 +39,7 @@ class Area1{
 
         case 3:
             System.out.println("Rectangle");
-            Scanner sc3=new Scanner(System.in);
+            Scanner sc2=new Scanner(System.in);
 
             System.out.println("Enter length of rectangle: ");
             int length=sc.nextInt();
@@ -57,5 +57,6 @@ class Area1{
             
 
     }
+    sc.close();
 }
 }
