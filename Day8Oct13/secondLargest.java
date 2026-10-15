@@ -37,6 +37,16 @@ public class secondLargest {
         else if(arr[i]> secondLargest && arr[i] != largest){
             secondLargest=arr[i];
         }
+
+        if (secondLargest == Integer.MIN_VALUE) {
+                System.out.println("No second largest distinct element found");
+        
+
+                
+            } else {
+                System.out.println("Second largest element: " + secondLargest);
+        }
+
     }
     }
 }
