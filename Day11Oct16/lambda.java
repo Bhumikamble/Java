@@ -3,7 +3,7 @@ package Day11Oct16;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//lambda is used to reduce the lines of code
+//lambda is a function which is used to reduce the lines of code
 //.test is to test a condition is an abstract method used for function interface
 //Function<T,R> here T is input and R is output .apply takes two inputs and returns a result is used for Predicate
 //.get takes no input and returns a result
@@ -221,6 +221,8 @@ import java.util.*;
 
 class lambda{
     public static void main(String[] args) {
+        
+        
         List<Integer> nums = List.of(5,3,4,2,1);
         List<String> words = List.of("banana","fig","apple");
         List<String> byLength = words.stream()
